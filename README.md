@@ -1,4 +1,5 @@
-# Mapbox engoie.
+# Mapbox engine.
+ Add points and poligons to private map.
 
 ## [Project tree]
 ### |
