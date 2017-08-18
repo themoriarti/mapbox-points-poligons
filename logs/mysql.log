@@ -1,0 +1,15 @@
+mysql> DROP DATABASE `mapbox`;
+Query OK, 0 rows affected (0,37 sec)
+
+mysql> CREATE DATABASE `mapbox`;
+Query OK, 1 row affected (0,02 sec)
+
+mysql> USE `mapbox`;
+Database changed
+mysql> CREATE USER 'mapbox'@localhost IDENTIFIED BY 'pass';
+Query OK, 0 rows affected (0,20 sec)
+
+mysql> GRANT SELECT, INSERT, UPDATE, DELETE ON `mapbox`.* TO 'mapbox'@localhost;
+Query OK, 0 rows affected (0,02 sec)
+
+mysql> exit
